@@ -1,0 +1,18 @@
+3a) what is the git status used for?
+The git status command displays the state of the working directory and the staging area. 
+ git status
+
+3b)which are the commonds to initialize?
+git init
+
+3c)how will you get the file of for in repository into your folder
+ git clone<link>
+ cd repository-name
+ git checkout <branch-name> -- path/to/file
+ git pull origin <branch-name>
+
+3d)if you forget your branch name how will you recover it
+ git rebase [branch]
+
+3e)write the commond to commit your  files
+ git commit -m “[descriptive message]”
